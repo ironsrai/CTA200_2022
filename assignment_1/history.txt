@@ -1,0 +1,71 @@
+    1  man pwgen
+    2  ssh -g -L5906:cosmo2:5906 student22@gw.cita.utoronto.ca
+    3  ls
+    4  ls -la
+    5  exit
+    6  cd/mnt
+    7  ls
+    8  cd /mnt
+    9  ls
+   10  cd scratch-lustre
+   11  cd student22
+   12  ls
+   13  mkdir CTA200_2022
+   14  ls
+   15  cd CTA200_2022
+   16  mkdir assignment_1
+   17  cd assignment_1
+   18  vi README.md
+   19  cd
+   20  pwd
+   21  cd ~murray
+   22  pwd
+   23  find -name "*Hello world*"
+   24  find -name "*Hello_ world*"
+   25  find -name "*Hello_ world*" 2> /dev/null
+   26  pwd
+   27  find -name "*Hello_world*" 2> /dev/null
+   28  cd tmp
+   29  ls
+   30  cp Hello_world.py ~
+   31  cd ..
+   32  pwd
+   33  cd Papers/tmp
+   34  ls
+   35  cp Hello_world.c ~
+   36  cd
+   37  ls
+   38  cp Hello_world.py /mnt/scratch-lustre/student22/CTA200_2022/assignment_1
+   39  cp Hello_world.c /mnt/scratch-lustre/student22/CTA200_2022/assignment_1
+   40  ls
+   41  rm Hello_world.py
+   42  rm Hello_world.c
+   43  ls
+   44  cd /mnt/scratch-lustre/student22/CTA200_2022/assignment_1
+   45  ls
+   46  mv Hello_world.py Hello_world_irons.py
+   47  ls
+   48  mv Hello_world.c Hello_world_irons.c
+   49  ls
+   50  python Hello_world_irons.py
+   51  module load python
+   52  python Hello_world_irons.py
+   53  module load gcc
+   54  gcc Hello_world_irons.c
+   55  ls
+   56  ./a.out
+   57  mv a.out Hello_world.x
+   58  ls
+   59  vi Hello_world_irons.py
+   60  vi Hello_world_irons.c
+   61  gcc Hello_world_irons.c
+   62  ls
+   63  mv a.out Hello_world.x
+   64  ls
+   65  ./Hello_world.x
+   66  ./Hello_world.x > output_c.txt
+   67  ls
+   68  python Hello_world_irons.py
+   69  python Hello_world_irons.py > output_python.txt
+   70  ls
+   71  history > history.txt
